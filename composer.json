@@ -1,0 +1,27 @@
+{
+    "name": "parus/backup",
+    "type": "library",
+    "description": "System backup Parus CMS class for PHP",
+    "authors": [
+        {
+            "name": "Ildar Ruslanovich",
+            "email": "main@pacms.ru"
+        }
+    ],
+    "funding": [
+        {
+            "url": "https://github.com/paruscms",
+            "type": "github"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Parus\\Backup\\": "src/"
+        }
+    }
+}
